@@ -1,0 +1,116 @@
+/* colors:
+
+red - FF9C94
+aqua - 96E8D9
+yellow - FFEA97
+orange - FFAF65
+blue - 88B2E8
+
+font scale -perfect fifth
+        5.063em 
+        2.25em 
+        1.5em 
+        1em 
+        0.667em 
+        0.444em 
+*/
+
+/***DEFAULTS*********/
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+html, body{
+    min-width: 300px;
+    font-size: 16px;
+    line-height:1.45;
+    font-weight: 400;
+}
+
+h1, h2, h3{
+    padding-top: 20px;
+    font-family: 'Merriweather', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
+
+h1{ font-size: 2.25em;}
+h2{font-size: 1.5em;
+    padding: 20px 2px 0 0;}
+
+p, li{
+    font-family: 'Source Sans Pro',Helvetica, Calibri, sans-serif;
+    padding: 2px;
+}
+
+ul {
+  list-style: none; }
+
+/*****HEADER ********/
+
+header{
+    background-color: #88B2E8;
+}
+header img{
+    /*width: 25%;*/
+    max-width: 25%;
+    padding-left: 1em;
+    display: inline;
+}
+
+header h1{
+    float:right;
+    padding: 1em ;
+    display: inline;
+}
+
+/******** NAV**********/
+
+nav li { display: inline-block;
+    font-size: 1em ;
+    background-color: #FFAF65;
+    padding: 2px;}
+
+nav{
+    clear: both;
+    padding-top: 1.5em;
+}
+
+/***********Content**********/
+
+#web{
+    background-color: #FF9C94;}
+
+#software{
+    background-color: #FFEA97;}
+#database{
+    background-color: #96E8D9;}
+
+.fa.indexIcon{
+    padding: 12px 5px;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+    padding-top: 1.5em;
+}
+
+footer p{
+    font-size: .667em;
+    background-color: #88B2E8;
+}
+
+.card.red{
+    background-color: #FF9C94;}
+
+.card.yellow{
+    background-color: #FFEA97;}
+.card.aqua{
+    background-color: #96E8D9;}
+    
+/*.card{
+    padding: 2px;
+}*/
